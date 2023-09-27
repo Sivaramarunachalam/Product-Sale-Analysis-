@@ -1,1 +1,36 @@
+# Design Thinking Step 1: Analysis Objectives
+analysis_objectives = [
+    "Identify top-selling products",
+    "Analyze sales trends",
+    "Understand customer preferences"
+]
+
+# Design Thinking Step 2: Data Collection
+data_sources = [
+    "Transaction records",
+    "Product information",
+    "Customer demographics"
+]
+
+# Design Thinking Step 3: Visualization Strategy
+visualization_tools = "IBM Cognos"
+visualization_plan = "Create interactive dashboards and reports"
+
+# Design Thinking Step 4: Actionable Insights
+actionable_insights = "Use derived insights to guide inventory management and marketing strategies"
+
+# Print the results
+print("Design Thinking Step 1: Analysis Objectives")
+for objective in analysis_objectives:
+    print("- " + objective)
+
+print("\nDesign Thinking Step 2: Data Collection")
+for source in data_sources:
+    print("- Collect data from " + source)
+
+print("\nDesign Thinking Step 3: Visualization Strategy")
+print("- Use " + visualization_tools + " to " + visualization_plan)
+
+print("\nDesign Thinking Step 4: Actionable Insights")
+print("- " + actionable_insights)
 
